@@ -23,7 +23,7 @@ class Race(Process):
         self.remote = remote
         self.socket = socket
         self.conn = None
-        self.active = False
+        self.active = True
         self.players = self.__make_players(players)
 
         logging.info("Race process initialized")
